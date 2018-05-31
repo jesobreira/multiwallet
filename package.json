@@ -1,0 +1,47 @@
+{
+  "name": "multicryptowallet",
+  "version": "1.0.0",
+  "description": "Multi crypto-currencies wallet",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesobreira/multiwallet.git"
+  },
+  "keywords": [
+    "multi",
+    "crypto",
+    "electrum",
+    "bitcoin",
+    "dash",
+    "ethereum",
+    "litecoin",
+    "receive",
+    "money",
+    "cash",
+    "site",
+    "ecommerce",
+    "pay",
+    "bitpay",
+    "currency"
+  ],
+  "author": "Jefrey Santos <jefrey.santos@capitual.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesobreira/multiwallet/issues"
+  },
+  "homepage": "https://github.com/jesobreira/multiwallet#readme",
+  "dependencies": {
+    "json-beautify": "^1.0.1",
+    "node-ethereum-wallet": "^1.0.2",
+    "node-fetch": "^2.1.2",
+    "web3": "^1.0.0-beta.34"
+  }
+}
